@@ -1,0 +1,28 @@
+{
+  "name": "ncbi",
+  "version": "0.0.0",
+  "description": "",
+  "author": "Fohlen <lennard.berger@student.uni-tuebingen.de>",
+  "main": "functions/__main__.js",
+  "dependencies": {
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5",
+    "xml2js": "^0.4.19"
+  },
+  "engines": {
+    "node": ">=8.4.0"
+  },
+  "license": "MIT",
+  "private": true,
+  "stdlib": {
+    "build": "faaslang",
+    "name": "Fohlen/ncbi",
+    "timeout": 10000,
+    "publish": true,
+    "personalize": {
+      "keys": [],
+      "user": []
+    }
+  },
+  "repository": "https://github.com/Fohlen/ncbi-lib.git"
+}
